@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="selenium_testNG.TestListener">
+        <methods>
+          <include name="takeScreenShot"/>
+        </methods>
+      </class> <!-- selenium_testNG.TestListener -->
+      <class name="selenium_testNG.TestNGExampleTests">
+        <methods>
+          <include name="verifyLoginPageText"/>
+          <include name="verifyForgotPasswordPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- selenium_testNG.TestNGExampleTests -->
+      <class name="TestNGDemo.VerifyTitle">
+        <methods>
+          <include name="verifySeleniumTitle"/>
+        </methods>
+      </class> <!-- TestNGDemo.VerifyTitle -->
+      <class name="com.demo.testNG_annotations.FacebookScreenshot">
+        <methods>
+          <include name="tearDown"/>
+          <include name="captureScreenshot"/>
+        </methods>
+      </class> <!-- com.demo.testNG_annotations.FacebookScreenshot -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

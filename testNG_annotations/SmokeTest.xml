@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestScenerio">
+  <test name="Sprint1">
+    <classes>
+      <class name="com.demo.testNG_annotations.AppTest"/>
+      <class name="selenium_testNG.TestNGExampleTests"/>
+      <class name="com.demo.testNG_annotations.FacebookScreenshot"/>
+      <class name="TestNGDemo.VerifyTitle"/>
+      <class name="com.demo.testNG_annotations.ScreenshotGoogle"/>
+    </classes>
+  </test> <!-- Sprint1 -->
+</suite> <!-- SmokeTestScenerio -->
